@@ -3,17 +3,24 @@
 
 <head>
     <title>Bible Screen Reader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css">
 </head>
 
 <body>
     <header>
-        <h1>Bible Screen Reader</h1>
-        <label>CSB</label>
-        <label>Genesis</label>
+        <!-- Include the selection context -->
+        {% include selection.html %}
     </header>
     <main>
         {{content}}
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.6/what-input.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 
 </html>
