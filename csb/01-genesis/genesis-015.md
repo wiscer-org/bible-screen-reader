@@ -5,9 +5,8 @@ Do not be afraid, Abram.
 I am your shield;
 your reward will be very great.
 
-**2** But Abram said, “Lord God, what can you give me, since I am childless and the heir of my house is Eliezer of
-Damascus?”
-**3** Abram continued, “Look, you have given me no offspring, so a slave born in[b] my house will be my
+**2** But Abram said, “Lord God, what can you give me, since I am childless and the heir of my house is Eliezer of Damascus?”
+**3** Abram continued, “Look, you have given me no offspring, so a slave born in my house will be my
 heir.”
 **4** Now the word of the Lord came to him: “This one will not be your heir; instead, one who comes from your own
 body
