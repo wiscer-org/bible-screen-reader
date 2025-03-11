@@ -41,6 +41,8 @@
                 const fileName = parts[parts.length - 1];
                 const fileExtension = fileName.split('.')[1];
                 const fileNameSegments = fileName[0].split('-');
+                console.log('fileName:', fileName);
+                console.log('fileNameSegments', fileNameSegments);
                 const result = fileNameSegments.concat([fileExtension]);
                 console.log(result);
                 return result;
