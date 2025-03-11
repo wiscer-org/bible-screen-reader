@@ -1,17 +1,17 @@
-# Genesis 
-**16** 
+# Genesis 16
 # Hagar and Ishmael
 
-Abram’s wife, Sarai, had not borne any children for him, but she owned an Egyptian slave named Hagar. 
-**2**  Sarai said to
-Abram, “Since the Lord has prevented me from bearing children, go to my slave; perhaps through her I can build a
+**1** Abram’s wife, Sarai, had not borne any children for him, but she owned an Egyptian slave named Hagar. 
+
+**2**  Sarai said to Abram, “Since the Lord has prevented me from bearing children, go to my slave; perhaps through her I can build a
 family.” And Abram agreed to what Sarai said. 
+
 **3**  So Abram’s wife, Sarai, took Hagar, her Egyptian slave, and gave her to
 her husband, Abram, as a wife for him. This happened after Abram had lived in the land of Canaan ten years. 
-**4**  He slept
-with[a] Hagar, and she became pregnant. When she saw that she was pregnant, her mistress became contemptible to her. 
-**5** 
-Then Sarai said to Abram, “You are responsible for my suffering![b] I put my slave in your arms,[c] and when she saw
+
+**4**  He slept with Hagar, and she became pregnant. When she saw that she was pregnant, her mistress became contemptible to her. 
+
+**5** Then Sarai said to Abram, “You are responsible for my suffering! I put my slave in your arms, and when she saw
 that she was pregnant, I became contemptible to her. May the Lord judge between me and you.”
 
 
