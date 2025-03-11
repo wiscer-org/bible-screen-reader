@@ -38,8 +38,8 @@
             function getFileSegments() {
                 const path = window.location.pathname;
                 const parts = path.split('/');
-                const fileName = parts[parts.length - 1];
-                const fileExtension = fileName.split('.')[1];
+                const fileFullName = parts[parts.length - 1];
+                const [fileName, fileExtension] = fileFullName.split('.')[1];
                 const fileNameSegments = fileName.split('-');
                 console.log('fileName:', fileName);
                 console.log('fileNameSegments', fileNameSegments);
