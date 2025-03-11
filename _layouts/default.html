@@ -22,53 +22,51 @@
             <a id="nextButton" class="button" href="#">Next</a>
         </div>
 
-        <script>
-            $(document).ready(function () {
-
-                /**
-                 * Get the segments of the current file. Divided by the '-' and the file extension
-                 * @returns {Array} The segments of the current file, including the file extension.
-                 */
-                function getFileSegments() {
-                    const path = window.location.pathname;
-                    const parts = path.split('/');
-                    const fileName = parts[parts.length - 1];
-                    const fileExtension = fileName.split('.')[1];
-                    const fileNameSegments = fileName[0].split('-');
-                    const result = fileNameSegments.concat([fileExtension]);
-                    console.log(result);
-                    return result;
-                }
-                /**
-                 * Change the current file by changing the number according to the given 'step'
-                 * @param {Number} step The step to change the current file. Positive for next, negative for previous.
-                 */
-                function stepUrl(step) {
-                    const segments = getFileSegments();
-                    const currentHtmlCounter = parseInt(segments[1]);
-                    const newHtmlCounter = currentHtmlCounter + step;
-                    const newFileName = segments[0] + '-' + newHtmlCounter + '.' + segments[2];
-
-                    // Replace the current file with the new one
-                    let newUrl = window.location.href.replace(segments[0] + '-' + currentHtmlCounter + segments[2], newFileName);
-                    console.log(newUrl);
-                    window.location.href = newUrl;
-                }
-                $('#prevButton').click(function () {
-                    stepUrl(-1);
-                });
-                $('#nextButton').click(function () {
-                    stepUrl(1);
-                });
-            });
-        </script>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.6/what-input.min.js"></script>
-    <script>
+    <script defer>
         $(document).foundation();
+        $(document).ready(function () {
+
+            /**
+             * Get the segments of the current file. Divided by the '-' and the file extension
+             * @returns {Array} The segments of the current file, including the file extension.
+             */
+            function getFileSegments() {
+                const path = window.location.pathname;
+                const parts = path.split('/');
+                const fileName = parts[parts.length - 1];
+                const fileExtension = fileName.split('.')[1];
+                const fileNameSegments = fileName[0].split('-');
+                const result = fileNameSegments.concat([fileExtension]);
+                console.log(result);
+                return result;
+            }
+            /**
+             * Change the current file by changing the number according to the given 'step'
+             * @param {Number} step The step to change the current file. Positive for next, negative for previous.
+             */
+            function stepUrl(step) {
+                const segments = getFileSegments();
+                const currentHtmlCounter = parseInt(segments[1]);
+                const newHtmlCounter = currentHtmlCounter + step;
+                const newFileName = segments[0] + '-' + newHtmlCounter + '.' + segments[2];
+
+                // Replace the current file with the new one
+                let newUrl = window.location.href.replace(segments[0] + '-' + currentHtmlCounter + segments[2], newFileName);
+                console.log(newUrl);
+                window.location.href = newUrl;
+            }
+            $('#prevButton').click(function () {
+                stepUrl(-1);
+            });
+            $('#nextButton').click(function () {
+                stepUrl(1);
+            });
+        })
     </script>
 </body>
 
