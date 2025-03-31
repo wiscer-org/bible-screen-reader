@@ -12,16 +12,16 @@
 ## Hagar and Ishmael Sent Away
 
 **8** The child grew and was weaned, and Abraham held a great feast on the day Isaac was weaned. 
-**9** But Sarah saw the son mocking—the one Hagar the Egyptian had borne to Abraham.
+**9**   But Sarah saw the son mocking—the one Hagar the Egyptian had borne to Abraham.
 **10** So she said to Abraham, “Drive out this slave with her son, for the son of this slave will not be a coheir with my son Isaac!”
 
 **11** This was very distressing to Abraham because of his son. 
-**12** But God said to Abraham, “Do not be distressed[d] about the boy and about your slave. Whatever Sarah says to you, listen to her, because your offspring will be traced through Isaac,
+**12** But God said to Abraham, “Do not be distressed  about the boy and about your slave. Whatever Sarah says to you, listen to her, because your offspring will be traced through Isaac,
 **13** and I will also make a nation of the slave’s son because he is your offspring.”
 
 **14** Early in the morning Abraham got up, took bread and a waterskin, put them on Hagar’s shoulders, and sent her and the boy away. She left and wandered in the Wilderness of Beer-sheba. 
 **15** When the water in the skin was gone, she left the boy under one of the bushes 
-**16** and went and sat at a distance, about a bowshot away, for she said, “I can’t bear to watch the boy die!” While she sat at a distance, she[e] wept loudly.
+**16** and went and sat at a distance, about a bowshot away, for she said, “I can’t bear to watch the boy die!” While she sat at a distance, she  wept loudly.
 
 **17** God heard the boy crying, and the angel of God called to Hagar from heaven and said to her, “What’s wrong, Hagar? Don’t be afraid, for God has heard the boy crying from the place where he is. 
 **18** Get up, help the boy up, and grasp his hand, for I will make him a great nation.”
