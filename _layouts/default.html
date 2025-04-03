@@ -19,10 +19,8 @@
     <footer>
         <div class="button-group align-center">
             <!-- Note: links in this nav buttons are temporary-->
-            <a id="prevButton" class="button"
-                href="https://wiscer.org/bible-screen-reader/csb/01-genesis/genesis-018.html">Prev</a>
-            <a id="nextButton" class="button"
-                href="https://wiscer.org/bible-screen-reader/csb/01-genesis/genesis-019.html">Next</a>
+            <a id="prevButton" class="button" href="#">Prev</a>
+            <a id="nextButton" class="button" href="#">Next</a>
         </div>
 
     </footer>
@@ -65,23 +63,21 @@
 
                 // Replace the current file with the new one
                 let newUrl = window.location.href.replace(segments[0] + '-' + currentHtmlCounter + segments[2], newFileName);
+                console.log('newUrl:', newUrl);
+                alert(newUrl);
                 console.log(newUrl);
                 window.location.href = newUrl;
             }
-            const navigateStepUrl = (step) => {
-                // Change current URL with the step
-                const newUrl = stepUrl(step);
-
-                // Replace the current file with the new one
-                console.log(newUrl);
-                window.location.href = newUrl;
-            }
-            $('#prevButton').click(function () {
-                stepUrl(-1);
-            });
-            $('#nextButton').click(function () {
-                stepUrl(1);
-            });
+            // $('#prevButton').click(function (e) {
+            //     e.preventDefault(); // Prevent the default action of the button
+            //     console.log('prevButton clicked');
+            //     stepUrlOld(-1);
+            // });
+            // $('#nextButton').click(function (e) {
+            //     e.preventDefault(); // Prevent the default action of the button
+            //     console.log('nextButton clicked');
+            //     stepUrlOld(1);
+            // });
         })
     </script>
 </body>
