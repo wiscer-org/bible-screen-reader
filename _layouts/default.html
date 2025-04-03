@@ -57,7 +57,7 @@
              * Change the current file by changing the number according to the given 'step'
              * @param {Number} step The step to change the current file. Positive for next, negative for previous.
              */
-            function stepUrl(step) {
+            function stepUrlOld(step) {
                 const segments = getFileSegments();
                 const currentHtmlCounter = parseInt(segments[1]);
                 const newHtmlCounter = currentHtmlCounter + step;
@@ -65,6 +65,14 @@
 
                 // Replace the current file with the new one
                 let newUrl = window.location.href.replace(segments[0] + '-' + currentHtmlCounter + segments[2], newFileName);
+                console.log(newUrl);
+                window.location.href = newUrl;
+            }
+            const navigateStepUrl = (step) => {
+                // Change current URL with the step
+                const newUrl = stepUrl(step);
+
+                // Replace the current file with the new one
                 console.log(newUrl);
                 window.location.href = newUrl;
             }
