@@ -8,4 +8,4 @@ function stepUrl(currentUrl, step) {
   return currentUrl.replace(/(\d+)(?=\D*$)/, (match) => parseInt(match) + step);
 }
 
-module.exports = stepUrl;s
+module.exports = stepUrl;
