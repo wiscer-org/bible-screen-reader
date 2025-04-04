@@ -20,4 +20,8 @@ describe('stepUrl', () => {
   test('Maintain the number of digits in the URL', () => {
     expect(stepUrl('/chapter/014', 1)).toBe('/chapter/015');
   });
+
+  test('Maintain the number of digits in the URL when decrementing', () => {
+    expect(stepUrl('https://wiscer.org/bible-screen-reader/csb/01-genesis/genesis-018.html', -1)).toBe('https://wiscer.org/bible-screen-reader/csb/01-genesis/genesis-017.html');
+  });
 });

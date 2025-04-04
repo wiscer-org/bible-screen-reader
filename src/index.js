@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevUrl = stepUrl(currentUrl, -1);
     const nextUrl = stepUrl(currentUrl, 1);
 
+    console.log('prevUrl', prevUrl);
+
     // Get the buttons
     const prevButton = document.getElementById('prevButton');
     const nextButton = document.getElementById('nextButton');
