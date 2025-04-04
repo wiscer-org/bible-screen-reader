@@ -35,50 +35,7 @@
         $(document).foundation();
         $(document).ready(function () {
 
-            /**
-             * Get the segments of the current file. Divided by the '-' and the file extension
-             * @returns {Array} The segments of the current file, including the file extension.
-             */
-            function getFileSegments() {
-                const path = window.location.pathname;
-                const parts = path.split('/');
-                const fileFullName = parts[parts.length - 1];
-                const [fileName, fileExtension] = fileFullName.split('.')[1];
-                const fileNameSegments = fileName.split('-');
-                console.log('fileName:', fileName);
-                console.log('fileNameSegments', fileNameSegments);
-                const result = fileNameSegments.concat([fileExtension]);
-                console.log(result);
-                return result;
-            }
-            /**
-             * Change the current file by changing the number according to the given 'step'
-             * @param {Number} step The step to change the current file. Positive for next, negative for previous.
-             */
-            function stepUrlOld(step) {
-                const segments = getFileSegments();
-                const currentHtmlCounter = parseInt(segments[1]);
-                const newHtmlCounter = currentHtmlCounter + step;
-                const newFileName = segments[0] + '-' + newHtmlCounter + '.' + segments[2];
-
-                // Replace the current file with the new one
-                let newUrl = window.location.href.replace(segments[0] + '-' + currentHtmlCounter + segments[2], newFileName);
-                console.log('newUrl:', newUrl);
-                alert(newUrl);
-                console.log(newUrl);
-                window.location.href = newUrl;
-            }
-            // $('#prevButton').click(function (e) {
-            //     e.preventDefault(); // Prevent the default action of the button
-            //     console.log('prevButton clicked');
-            //     stepUrlOld(-1);
-            // });
-            // $('#nextButton').click(function (e) {
-            //     e.preventDefault(); // Prevent the default action of the button
-            //     console.log('nextButton clicked');
-            //     stepUrlOld(1);
-            // });
-        })
+        });
     </script>
 </body>
 
