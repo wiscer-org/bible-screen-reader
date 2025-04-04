@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     nextButton.href = nextUrl;
 
     // Log the URLs to the console for debugging
+    console.log('currentUrl', currentUrl);
     console.log('prevUrl', prevUrl);
-    console.log('nexxtUrl', nextUrl);
+    console.log('nextUrl', nextUrl);
 
 });
