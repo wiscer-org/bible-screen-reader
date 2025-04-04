@@ -8,6 +8,8 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
     "build": "webpack"
   }
 }
