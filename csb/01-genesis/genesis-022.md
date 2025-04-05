@@ -26,12 +26,17 @@ Isaac said, “The fire and the wood are here, but where is the lamb for the bur
 He replied, “Here I am.”
  
 **12**  Then he said, “Do not lay a hand on the boy or do anything to him. For now I know that you fear God, since you have not withheld your only son from me.” 
+
 **13**  Abraham looked up and saw a ram[c] caught in the thicket by its horns. So Abraham went and took the ram and offered it as a burnt offering in place of his son.   
+
 **14** And Abraham named that place The Lord Will Provide, so today it is said, “It will be provided on the Lord’s mountain.”
  
 **15** Then the angel of the Lord called to Abraham a second time from heaven   
+
 **16** and said, “By myself I have sworn,” this is the Lord’s declaration: “Because you have done this thing and have not withheld your only son,   
+
 **17**  I will indeed bless you and make your offspring as numerous as the stars of the sky and the sand on the seashore. Your offspring will possess the city gates of their enemies. 
+
 **18** And all the nations of the earth will be blessed by your offspring because you have obeyed my command.”
  
 **19**  Abraham went back to his young men, and they got up and went together to Beer-sheba. And Abraham settled in Beer-sheba.
@@ -39,7 +44,11 @@ He replied, “Here I am.”
 ## Rebekah’s Family
  
 **20**  Now after these things Abraham was told, “Milcah also has borne sons to your brother Nahor: 
+
 **21**  Uz his firstborn, his brother Buz, Kemuel the father of Aram,   
+
 **22**  Chesed, Hazo, Pildash, Jidlaph, and Bethuel.”   
+
 **23**  And Bethuel fathered Rebekah. Milcah bore these eight to Nahor, Abraham’s brother.   
+
 **24**  His concubine, whose name was Reumah, also bore Tebah, Gaham, Tahash, and Maacah.
