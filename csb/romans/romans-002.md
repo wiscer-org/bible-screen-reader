@@ -69,9 +69,9 @@ Circumcision of the Heart
 
 ## Jeremiah 31:31–34 (ESV):
 
-***31*** “Behold, the days are coming, declares the Lord, when I will make a new covenant with the house of Israel and the house of Judah,
+**31** “Behold, the days are coming, declares the Lord, when I will make a new covenant with the house of Israel and the house of Judah,
 
-***32*** not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt, my covenant that they broke, though I was their husband, declares the Lord.
+**32** not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt, my covenant that they broke, though I was their husband, declares the Lord.
 
-***33*** But this is the covenant that I will make with the house of Israel after those days, declares the Lord: I will put my law within them, and I will write it on their hearts. And I will be their God, and they shall be my people.
-34 And no longer shall each one teach his neighbor and each his brother, saying, ‘Know the Lord,’ for they shall all know me, from the least of them to the greatest, declares the Lord. For I will forgive their iniquity, and I will remember their sin no more.”
+**33** But this is the covenant that I will make with the house of Israel after those days, declares the Lord: I will put my law within them, and I will write it on their hearts. And I will be their God, and they shall be my people.
+**34** And no longer shall each one teach his neighbor and each his brother, saying, ‘Know the Lord,’ for they shall all know me, from the least of them to the greatest, declares the Lord. For I will forgive their iniquity, and I will remember their sin no more.”
